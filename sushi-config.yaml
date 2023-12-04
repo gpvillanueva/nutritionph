@@ -1,0 +1,180 @@
+# ╭──────────────────────────────────────ImplementationGuide───────────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/sushi/configuration/                         │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: who.fhir.smart-ig-starter-kit
+canonical: http://smart.who.int/ig/smart-ig-starter-kit
+name: SMARTStarterKit
+status: draft
+version: 0.2.1
+fhirVersion: 5.0.0
+date: 2021-06-03
+# copyright:
+copyrightYear: 2021+
+releaseLabel: "CI Build"
+title: "DRAFT SMART Guidelines L3 SOP"
+description: "DRAFT SMART Guidelines L3 SOP"
+license: CC0-1.0
+
+
+menu:
+  # Top: 
+  #   Section 1: section1.html
+  #   Section 2:
+  #     Section 2.1: section21.html
+  #     Section 2.2: section22.html
+  #   Section 3: section3.html
+
+  Home: 
+    Homepage: index.html
+    Overview: '#'
+    Assumptions: 'assumptions.html'
+  Authoring:
+#    Overview: 'authoring_overview.html'
+    Structuring of the SOP IG: 'structure.html'
+    Diagrams Legend: 'diagram_legend.html'
+    Types of content: 'content_types.html'
+    Commons and Governance: 
+      Common Artifacts: gov_overview.html
+      Governance overview: gov_overview.html
+      Concept Governance: gov_concepts.html
+    L2 Overview: 'l2_l3_overview.html'
+    Narrative Authoring: 'narrative.html'
+    Authoring Artifacts: 
+#      Naming Conventions: 'naming_conventions.html'
+      Authoring: 'authoring_artifacts.html'
+      Personas: 'l3_personas.html'
+      User scenarios: 'l3_scenarios.html'
+      Processes: 'l3_processes.html'
+      Logical Models: 'l3_logicalmodels.html'
+      Value Sets: 'l3_valuesets.html'
+      Code Systems: 'l3_codesystems.html'
+      Profiles: 'l3_profiles.html'
+      Decision Tables: 'l3_decisiontables.html'
+      Scheduling Logic: 'l3_schedulinglogic.html'
+      Libraries: 'l3_libraries.html'
+      Structure Maps: 'l3_structuremaps.html'
+      Testing: 'l3_testing.html'
+      Forms: 'l3_forms.html'
+      Indicators: 'l3_indicators.html'
+      Concept Maps: 'l3_conceptmaps.html'
+      CQL: 'l3_cql.html'
+      Requirements: 'l3_requirements.html'
+      Examples: 'l3_examples.html'
+      License: 'license.html'
+
+
+    Versioning: 'versioning.html'
+    Licensing: 'ig_licensing.html'
+  IG Setup:
+    GitHub Repositories: 'ig_setup.html'
+    GitHub Initialization: 'ig_licensing.html'
+    IG Configuration: 'ig_licensing.html'
+#    Folders and File structure: 'ig_licensing.html'
+  Validating IG:
+    QA Check: 'qa_check.html'
+  Indices:
+    Artifacts:
+      Extensions: 'artifacts.html'
+#      Value Sets: maps.html'
+
+pages: 
+  index.md:
+    title: "Home"
+#    overview.md:
+#      title: "Overview"
+    assumptions.md:
+     title: "Assumptions"
+  authoring_overview.md:
+    title: "Authoring"
+    structure.md:
+      title: "Structure of the SOP IG"
+      diagram_legend.md:
+        title: "Diagrams Legend"
+#    naming_conventions.md:
+#      title: "Naming Conventions"
+    content_types.md:
+      title: "Types of Content"
+    l2_l3_overview.md:
+      title: "L2 overview"
+    narrative.md:
+      title: "Authoring Narrative"
+    gov_overview.md:
+      title: "Governance Overview"
+      gov_concepts.md:
+        title: "Concept Governance"
+    artifacts_catalog.md:
+      title: "Artifacts Catalog"
+    authoring_artifacts.md:
+      title: "Authoring Artifacts"
+      l3_personas.md:
+        title: "Personas"
+      l3_scenarios.md:
+        title: "User Scenarios"
+      l3_processes.md:
+        title: "Business Processes"
+      l3_logicalmodels.md:
+        title: "Logical Models"
+      l3_valuesets.md :
+        title: "Value Sets"
+      l3_codesystems.md :
+        title: "Code Systems"
+      l3_profiles.md :
+        title: "Profiles"
+      l3_decisiontables.md :
+        title: "Decision Tables"
+      l3_schedulinglogic.md :
+        title: "Scheduling Logic"
+      l3_libraries.md :
+        title: "Libraries"
+      l3_structuremaps.md :
+        title: "Structure Maps"
+      l3_testing.md :
+        title: "Testing"
+      l3_forms.md:
+        title: "Forms"
+      l3_indicators.md:
+        title: "Indicators"
+      l3_conceptmaps.md:
+        title: "Concept Maps"
+      l3_cql.md:
+        title: "CQL"
+      l3_requirements.md:
+        title: "Requirements"
+      l3_examples.md:
+        title: "Examples"
+      # l3_testscripts.md:
+      #   title: "Test Scripts"
+      license.md:
+        title: "License"
+
+    ig_licensing.md:
+      title: "Licensing"
+    versioning.md:
+      title: "Versioning"
+  ig_setup.md:
+    title: "IG Setup"
+    github_setup.md:
+      title: "Github Initialization"
+    ig_configuration.md:
+      title: "IG Configuration"
+#    folder_structure.md:
+#      title: "Folders and File Structure"
+  validating_ig.md:
+    title: "Validating IG"
+    qa_check.md:
+      title: "QA check"
+  indices.md:
+    title: "Indices"
+  maps.md:
+    title: "Mappings"
+
+
+publisher:
+  name: TBD
+  url: http://smart.who.int
+  email: leitnerc@who.int
+# contact:
+jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001
+# experimental: true
+
