@@ -3,17 +3,17 @@
 # │  supported properties, see: https://fshschool.org/sushi/configuration/                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: who.fhir.smart-ig-starter-kit
-canonical: http://smart.who.int/ig/smart-ig-starter-kit
-name: SMARTStarterKit
+canonical: http://upmsilab.org
+name: PhilippineMultisectoralNutritionProject
 status: draft
-version: 0.2.1
-fhirVersion: 5.0.0
-date: 2021-06-03
+version: 0.1
+fhirVersion: 4.0.1
+date: 2023-12-05
 # copyright:
 copyrightYear: 2021+
 releaseLabel: "CI Build"
-title: "DRAFT SMART Guidelines L3 SOP"
-description: "DRAFT SMART Guidelines L3 SOP"
+title: "DRAFT Philippine Multisectoral Nutrition Project Implementation Guide"
+description: "DRAFT Philippine Multisectoral Nutrition Project Implementation Guide using the WHO SMART Guidelines Implementation Guide Template"
 license: CC0-1.0
 
 
