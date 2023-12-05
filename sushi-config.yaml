@@ -6,7 +6,7 @@ id: who.fhir.smart-ig-starter-kit
 canonical: http://upmsilab.org
 name: PhilippineMultisectoralNutritionProject
 status: draft
-version: 0.1
+version: 0.2.1
 fhirVersion: 4.0.1
 date: 2023-12-05
 # copyright:
