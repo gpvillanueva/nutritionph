@@ -2,6 +2,7 @@ Alias: $d6bbde33-62dd-4733-b5e0-00ded87d7c3f = https://ontoserver.upmsilab.org/f
 
 Extension: PSGCBarangayCode
 Id: PSGCBarangayCode
+Description: "This is a FHIR extension to enable the use of Philippine Standards Geographic Code (PSGC) for Barangay Level."
 * ^url = "https://example.org/fhir/StructureDefinition/PSGCBarangayCode"
 * ^status = #draft
 * ^context.type = #element
