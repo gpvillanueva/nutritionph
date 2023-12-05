@@ -2,7 +2,7 @@ Alias: $d6bbde33-62dd-4733-b5e0-00ded87d7c3f = https://ontoserver.upmsilab.org/f
 
 Extension: PSGCCityMunicipalityCode
 Id: PSGCCityMunicipalityCode
-Description: "This is a FHIR extension to enable use of Philippine Standards Geographic Code (PSGC) for Municipal or City Level."
+Description: "This is a FHIR extension to enable the use of Philippine Standards Geographic Code (PSGC) for Municipal or City Level."
 * ^url = "https://example.org/fhir/StructureDefinition/PSGCCityMunicipalityCode"
 * ^status = #draft
 * ^context.type = #element
